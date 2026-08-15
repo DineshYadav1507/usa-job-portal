@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# env
+.env
+.env.*
+!.env.example
+
+# build
+.next/
+dist/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# generated documents
+*.pdf
+*.docx
+
+# local data
+postgres-data/
+redis-data/
